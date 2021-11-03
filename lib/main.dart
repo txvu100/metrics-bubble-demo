@@ -43,8 +43,8 @@ class _MyHomePageState extends State<MyHomePage> {
     bodyWeights.add(coreWeight);
 
     BodyWeight lowerWeight = BodyWeight(label: 'Lower Body');
-    coreWeight.weight = 315;
-    bodyWeights.add(coreWeight);
+    lowerWeight.weight = 315;
+    bodyWeights.add(lowerWeight);
   }
 
   @override
